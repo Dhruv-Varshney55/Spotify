@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 23);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.left img{
+    height: 40px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 320px;
+    justify-content: space-between;
+}
+.left h1{
+    margin-right: 90px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 460px;
+}
+.right figure{
+    border-radius: 20px;
+    background-color: rgb(41, 168, 218);
+    padding: 0px 15px;
+}
+.right img{
+    border-radius: 50%;
+    height: 55px;
+}
+input{
+    background-color: rgb(41, 168, 218);
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-bell{
+    font-size: 25px;
+}
+.right figure i{
+    color: white;
+    background-color: rgb(41, 168, 218);
+}
+.right>i{
+    color: white;
+}
+#main{
+    display: flex;
+    border: 2px solid gray;
+    max-height: 90.6vh;
+    overflow: scroll;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+.box1{
+    width: 110vh;
+    border-right: 2px solid gray;
+    max-height: 100vh;
+    overflow: scroll;
+}
+.box1::-webkit-scrollbar{
+    display: none;
+}
+.box2{
+    position: relative;
+    width: 59vh;
+    max-height: 100vh;
+    overflow: scroll;
+}
+.box2::-webkit-scrollbar{
+    display: none;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.images:nth-of-type(1) img{
+    width: 280px;
+    height: 280px;
+    transition: 0.5s;
+}
+.images:nth-of-type(1) img:hover{
+    transform: scale(1.1);
+}
+.release h1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 21px;
+    font-size: 28px;
+}
+.release figure{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.hello{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.manage{
+    display: flex;
+    justify-content: space-around;
+}
+.manage img{
+    height: 100px;
+    width: 100px;
+}
+.manage img:hover{
+    opacity: 0.5;
+}
+.play{
+    position: relative;
+}
+.play i{
+    color: white;
+    position: absolute;
+    top: 42px;
+    right: 42px; 
+    font-size: 1rem;
+    background: none;
+    transform: scale(0);
+    transition: 250ms ease-in-out;
+}
+.play img:hover+i{
+    transform: scale(2);
+}
+.manage figcaption{
+    color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.cancel{
+    color: white;
+    margin-top: 30px;
+    margin-right: 12px;
+}
+.artists h1{
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.artists figure img{
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.hero{
+    display: flex;
+    margin-top: 20px;   
+    width: 110vh;
+    overflow: scroll;
+    margin-left: 8px;
+}
+.hero::-webkit-scrollbar{
+    display: none;
+}
+.hero figcaption{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.music{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 34);
+    margin-top: 30px;
+    margin-left: 21px;
+    width: 110vh;
+    overflow: scroll;
+}
+.music::-webkit-scrollbar{
+    display: none;
+}
+.muuuu img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.muuuu{
+    position: sticky;
+    left: 0px;
+}
+.music>img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.english h1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 21px;
+    font-size: 28px;
+}
+.angrezi{
+    display: flex;
+    width: 110vh;
+    overflow: scroll;
+}
+.angrezi::-webkit-scrollbar{
+    display: none;
+}
+.angrezi figure img{
+    height: 130pz;
+    width: 120px;
+    padding: 10px;
+}
+.angrezi figure img:hover{
+    filter: brightness(50%);
+}
+.angrezi figure{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.angrezi figcaption{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Hindi h1{
+    color: white;
+    margin-top: 35px;
+    margin-left: 21px;
+    font-size: 29px;
+}
+.Language{
+    display: flex;
+    width: 110vh;
+    overflow: scroll;
+}
+.Language::-webkit-scrollbar{
+    display: none;
+}
+.Language figure img{
+    height: 130pz;
+    width: 120px;
+    padding: 10px;
+}
+.Language figure img:hover{
+    filter: brightness(50%);
+}
+.Language figure{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.Language figcaption{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fig{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+}
+.fig figcaption{
+    color: white;
+}
+.fig figcaption:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    width: 67px;
+    color: aqua;
+    cursor: pointer;
+}
+.fig i{
+    color: aqua;
+    margin-top: 2px;
+}
+.fig h1{
+    font-size: 30px;
+}
+.list figure{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+}
+.list figure h1{
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.list figure img{
+    height: 72px;
+    width: 70px;
+    margin-left: 25px;
+}
+.roast{
+    color: white;
+    margin-left: 25px;
+}
+.list i{
+    color: white;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    cursor: pointer;
+}
